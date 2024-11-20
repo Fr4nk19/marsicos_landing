@@ -7,10 +7,19 @@ const NavigationStyle = styled.div`
             align-items: center;
             align-content: space-between;
             flex-flow: wrap;
-            padding: 20px 75px;
+            padding: 10px 75px;
 
             .col_logo {
                 flex: 1 1;
+
+            a{
+                img{
+                    display: block;
+                    width: 100%;
+                    max-width: 150px;
+                }            
+            }
+
             
             }
 
