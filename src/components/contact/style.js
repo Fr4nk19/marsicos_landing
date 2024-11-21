@@ -104,6 +104,42 @@ const ContactStyle = styled.div`
 
 
 }
+
+@media screen and (max-width:1440px) {
+    .wrap_info{
+        width: 90%;
+    }
+}
+@media screen and (max-width:1024px) {
+    .socialmedia_wrap{
+        width: 75%;
+    }
+}
+@media screen and (max-width:768px) {
+    .info_shop{
+        flex-flow: wrap;
+    }
+    .info_shop .col_info {
+        width: 45%;
+    }
+    .feat_image_sect {
+        padding: 10px;
+    }
+    .copy_image {
+        padding: 21px;
+    }
+    .copy_image p{
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .info_shop .col_info {
+        width: unset;
+    }
+}
+
 `
 
 export default ContactStyle;

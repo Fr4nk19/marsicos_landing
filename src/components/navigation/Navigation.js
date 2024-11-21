@@ -25,7 +25,7 @@ const links = [
             </div>
             <div className='col_links'>
                 <ul>
-                    {links.map(link => (<li><a href={link.to}>{link.label}</a></li> ))}
+                    {links.map((link, index) => (<li key={index}><a href={link.to}>{link.label}</a></li> ))}
                 </ul>
             </div>
         </div>

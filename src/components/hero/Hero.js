@@ -49,7 +49,6 @@ export default function Hero() {
             disableOnInteraction: false,
         }}
         pagination={{ clickable: true }}
-        onSlideChange={() => console.log("slide change")}
       >
         {slides.map((slide, index) => (
           <SwiperSlide 
